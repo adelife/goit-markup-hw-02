@@ -1,0 +1,32 @@
+:root{
+    
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    background-color: #FFF;
+    color:#2E2F42
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.button {
+    cursor: pointer;
+}
+.logo{
+        color: #4D5AE5;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+span {
+    color: #2E2F42;
+}
