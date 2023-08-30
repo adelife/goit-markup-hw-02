@@ -1,7 +1,7 @@
 
 
 body{
-    font-family: 'roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     color: #434455;
     background-color: #FFFFFF;
@@ -71,7 +71,7 @@ ul {
     color: #FFFFFF;
 }
 .banner-button{
-    font-family: inherit;
+    font-family: "Roboto",sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -79,8 +79,6 @@ ul {
     background-color: #4D5AE5;
     color: #FFF;
     cursor: pointer;
-    border-radius: 4px;
-    padding: 16px 32px;
 }
 .banner-button:hover,
 .banner-button:focus{
@@ -90,6 +88,7 @@ ul {
     background-color: #FFF;
 }
 .feature-title{
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -107,6 +106,7 @@ ul {
     background-color: #F4F4FD;
 }
 .team-title{
+    color: #2e2f42;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -119,6 +119,7 @@ ul {
     background-color: #FFF;
 }
 .team-person{
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -133,7 +134,7 @@ ul {
 }
 .portfolio-title{
     background-color:#FFFFFF;
-    color: #2E2F42;
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.72px;
