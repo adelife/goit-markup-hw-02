@@ -22,6 +22,7 @@ header{
 .span-logo{
     color: #2E2F42;
     text-decoration: none;
+
 }
 ul {
     list-style: none;
@@ -37,7 +38,8 @@ ul {
 }
 
 .nav-link:hover,
-.nav-link:active{
+.nav-link:active,
+.nav-link:focus{
     color: #404BBF;
     text-decoration: underline;
 }
@@ -48,6 +50,7 @@ ul {
     font-weight: 400;
 }
 .contact:hover,
+.contact:focus,
 .contact:active{
     color: #404BBF;
 }
