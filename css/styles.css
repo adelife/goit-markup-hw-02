@@ -1,32 +1,119 @@
-:root{
-    
-}
+
 
 body{
     font-family: 'roboto', sans-serif;
-    background-color: #FFF;
-    color:#2E2F42
+    font-style: normal;
+    color: #2E2F42;
 }
-ul {
-    list-style: none;
+header{
+    background-color:#FFF;
 }
 
-a {
-    text-decoration: none;
-}
-.button {
-    cursor: pointer;
-}
 .logo{
         color: #4D5AE5;
         font-family: Raleway;
+        text-decoration: none;
         font-size: 18px;
-        font-style: normal;
         font-weight: 700;
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
-span {
+.span-logo{
     color: #2E2F42;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.nav-link{
+    color:#2E2F42;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.nav-link:hover,
+.nav-link:active{
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.contact{
+    color: #434455;
+    text-decoration: none;
+    font-weight: 400;
+}
+.contact:hover,
+.contact:active{
+    color: #404BBF;
+}
+.banner{
+    background-color: #2E2F42;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+}
+.banner-button{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4D5AE5;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+.banner-button:hover{
+    background-color: #404BBF;
+}
+.feature{
+    background-color: #FFF;
+}
+.feature-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.feature-text{
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+
+}
+.team{
+    background-color: #F4F4FD;
+}
+.team-title{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.team-card{
+    background-color: #FFF;
+}
+.team-person{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.team-text{
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
