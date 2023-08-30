@@ -65,20 +65,25 @@ ul {
 .banner-title{
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
+    text-align: center;
     color: #FFFFFF;
 }
 .banner-button{
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFF;
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
 }
-.banner-button:hover{
+.banner-button:hover,
+.banner-button:focus{
     background-color: #404BBF;
 }
 .feature{
@@ -105,7 +110,8 @@ ul {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
